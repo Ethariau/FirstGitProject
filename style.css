@@ -2,3 +2,16 @@ body {
   height: 100vh;
   background: red;
 }
+h1 {
+  animation: 2s rotation infinite;
+  width: 200px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
